@@ -7,7 +7,8 @@
 # handles the abstraction) the asus settiing makes sure the mesh shown in rviz/gazebo 
 # is the asus.
 
-export TURTLEBOT_BASE=kobuki
-export TURTLEBOT_STACKS=hexagons
-export TURTLEBOT_3D_SENSOR=kinect
-export TURTLEBOT_SIMULATION=false
+echo '# Set TurtleBot2 configuration for Kobuki' >> ~/.bashrc
+echo 'export TURTLEBOT_BASE=kobuki' >> ~/.bashrc
+echo 'export TURTLEBOT_STACKS=hexagons' >> ~/.bashrc
+echo 'export TURTLEBOT_3D_SENSOR=asus_xtion_pro' >> ~/.bashrc
+echo 'export TURTLEBOT_SIMULATION=false' >> ~/.bashrc
